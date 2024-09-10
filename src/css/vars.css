@@ -1,5 +1,33 @@
 :root {
   /* colors */
+  --color-threatx-mellow-apricot: #F5BA73;
+  --color-threatx-casablenca: #EEA950;
+  --color-threatx-tree-poppy: #E27937;
+  --color-threatx-dark-pastel-red: #C1411E;
+  --color-threatx-jelly-bean: #DA5B4C;
+  --color-threatx-cedar-chest: #CC5C4F;
+  --color-threatx-vermillion: #D1321F;
+  --color-threatx-cornell-red: #B02418;
+  --color-threatx-concrete: #F2F2F2;
+  --color-threatx-black-haze:  #F6F6F7;
+  --color-threatx-athens-grey: #DCDCDF;
+  --color-threatx-pumice: #C5C5C5;
+  --color-threatx-cod-gray: #2D3033;
+  --color-threatx-glaucous: #5A77B4;
+  --color-threatx-san-marino: #3F64AF;
+  --color-txlogo-reds-1: #db5b33;
+  --color-txlogo-reds-2: #db5b33;
+  --color-txlogo-reds-3: #df4b26;
+  --color-txlogo-reds-4: #a83200;
+  --color-txlogo-reds-5: #7a341e;
+  --color-txlogo-reds-6: #4b1208;
+  --color-txlogo-reds-7: #d23200;
+  --color-txlogo-greys-1: #1a1a1a;
+  --color-txlogo-greys-2: #1f2837;
+  --color-txlogo-greys-3: #5f7b81;
+  --color-txlogo-greys-4: #c8d2d4;
+  --color-txlogo-greys-5: #d6ecf3;
+  --color-txlogo-greys-6: #f6f6e8;
   --color-white: #fff;
   --color-smoke-10: #fefefe;
   --color-smoke-30: #fafafa;
@@ -17,7 +45,7 @@
   --color-jet-70: #222;
   --color-jet-80: #191919;
   --color-black: #000;
-  /* fonts */
+    /* font;s */
   --rem-base: 18; /* used to compute rem value from desired pixel value (e.g., calc(18 / var(--rem-base) * 1rem) = 18px) */
   --body-font-size: 1.0625em; /* 17px */
   --body-font-size--desktop: 1.125em; /* 18px */
@@ -28,6 +56,9 @@
   --body-font-weight-bold: 600;
   --monospace-font-family: "Roboto Mono", monospace;
   --monospace-font-weight-bold: 600;
+  --heading-font-family: "Montseratt", sans-serif;
+  --heading-font-color: var(--color-jet-80);
+  --heading-font-weight-bold: 600;
   /* base */
   --body-background: var(--color-white);
   --panel-background: var(--color-smoke-30);
@@ -36,7 +67,7 @@
   --scrollbar-thumb-color: var(--color-gray-10);
   --scrollbar_hover-thumb-color: var(--color-gray-30);
   /* navbar */
-  --navbar-background: var(--color-jet-80);
+  --navbar-background: var(--color-threatx-cornell-red);
   --navbar-font-color: var(--color-white);
   --navbar_hover-background: var(--color-black);
   --navbar-button-background: var(--color-white);
@@ -62,15 +93,15 @@
   --page-version-menu-background: var(--color-smoke-70);
   --page-version-missing-font-color: var(--color-gray-40);
   /* admonitions */
-  --caution-color: #a0439c;
+  --caution-color: #D1321F;
   --caution-on-color: var(--color-white);
-  --important-color: #d32f2f;
+  --important-color: #3F64AF;
   --important-on-color: var(--color-white);
-  --note-color: #217ee7;
+  --note-color: #5A77B4;
   --note-on-color: var(--color-white);
-  --tip-color: #41af46;
+  --tip-color: #EEA950;
   --tip-on-color: var(--color-white);
-  --warning-color: #e18114;
+  --warning-color: #C1411E;
   --warning-on-color: var(--color-white);
   /* doc */
   --doc-font-color: var(--color-jet-50);

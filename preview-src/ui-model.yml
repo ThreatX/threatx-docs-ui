@@ -1,21 +1,21 @@
 antoraVersion: '1.0.0'
 site:
   url: http://localhost:5252
-  title: Brand Docs
+  title: ThreatX User Documentation
   homeUrl: &home_url /xyz/5.2/index.html
   components:
-  - name: abc
-    title: Project ABC
+  - name: tx_prevent_user_docs
+    title: TX User Documentation
     url: '#'
     versions:
-    - &latest_version_abc
+    - &latest_version_tx_prevent_user_docs
       url: '#'
       version: '1.1'
       displayVersion: '1.1'
     - url: '#'
       version: '1.0'
       displayVersion: '1.0'
-    latestVersion: *latest_version_abc
+    latestVersion: *latest_version_tx_prevent_user_docs
   - &component
     name: xyz
     title: &component_title Project XYZ

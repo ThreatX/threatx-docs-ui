@@ -1,11 +1,11 @@
 {
-  "name": "@antora/ui-default",
-  "description": "An archetype project that produces a UI for creating documentation sites with Antora",
-  "homepage": "https://gitlab.com/antora/antora-ui-default",
+  "name": "@threatx-user-docs/ui-default",
+  "description": "A project that produces a UI for creating ThreatX's user documentation sites with Antora",
+  "homepage": "https://github.com/ThreatX/threatx-user-docs-ui-defaul",
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/antora/antora-ui-default.git"
+    "url": "https://github.com/ThreatX/threatx-user-docs-ui-default"
   },
   "engines": {
     "node": ">= 8.0.0"
@@ -52,5 +52,8 @@
     "stylelint": "~13.3",
     "stylelint-config-standard": "~20.0",
     "vinyl-fs": "~3.0"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "^5.0.20"
   }
 }

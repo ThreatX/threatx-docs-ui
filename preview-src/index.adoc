@@ -1,5 +1,5 @@
-= Hardware and Software Requirements
-Author Name
+= ThreatX User Documentation
+Nick Ferguson
 :idprefix:
 :idseparator: -
 :!example-caption:

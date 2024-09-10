@@ -1,4 +1,4 @@
-= Antora Default UI
+= ThreatX User Documentation Default UI
 // Settings:
 :experimental:
 :hide-uri-scheme:
