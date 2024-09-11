@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - src/
+      - src/*
   pull_request:
     branches:
       - main
@@ -45,7 +45,7 @@ jobs:
         run: npm install
 
       - name: Bundle
-        run: node_modules/.bin/gulp bundle
+        run: node_modules/.bin/gulp bundle:pack
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4.3.3

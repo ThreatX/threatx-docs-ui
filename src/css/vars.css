@@ -52,12 +52,12 @@
   --body-font-size--print: 0.9375em; /* 15px */
   --body-line-height: 1.15;
   --body-font-color: var(--color-jet-70);
-  --body-font-family: "Roboto", sans-serif;
+  --body-font-family: "Montserrat", sans-serif;
   --body-font-weight-bold: 600;
   --monospace-font-family: "Roboto Mono", monospace;
   --monospace-font-weight-bold: 600;
-  --heading-font-family: "Montseratt", sans-serif;
-  --heading-font-color: var(--color-jet-80);
+  --heading-font-family: "Montserrat", sans-serif;
+  --heading-font-color: var(--color-threatx-vermillion);
   --heading-font-weight-bold: 600;
   /* base */
   --body-background: var(--color-white);
@@ -67,8 +67,8 @@
   --scrollbar-thumb-color: var(--color-gray-10);
   --scrollbar_hover-thumb-color: var(--color-gray-30);
   /* navbar */
-  --navbar-background: var(--color-threatx-cornell-red);
-  --navbar-font-color: var(--color-white);
+  --navbar-background: var(--color-txlogo-greys-1);
+  --navbar-font-color: var(--color-txlogo-reds-7);
   --navbar_hover-background: var(--color-black);
   --navbar-button-background: var(--color-white);
   --navbar-button-border-color: var(--panel-border-color);
@@ -78,7 +78,7 @@
   --navbar-menu-font-color: var(--body-font-color);
   --navbar-menu_hover-background: var(--color-smoke-50);
   /* nav */
-  --nav-background: var(--panel-background);
+  --nav-background: var(--color-threatx-pumice);
   --nav-border-color: var(--color-gray-10);
   --nav-line-height: 1.35;
   --nav-heading-font-color: var(--color-jet-30);
@@ -149,7 +149,7 @@
   --toc-line-height: 1.2;
   /* footer */
   --footer-line-height: var(--doc-line-height);
-  --footer-background: var(--color-smoke-90);
+  --footer-background: var(--color-txlogo-greys-1);
   --footer-font-color: var(--color-gray-70);
   --footer-link-font-color: var(--color-jet-80);
   /* dimensions and positioning */

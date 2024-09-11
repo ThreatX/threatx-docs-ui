@@ -17,6 +17,10 @@ lint:
 bundle:
 	node_modules/.bin/gulp bundle
 
+.PHONY: pack
+pack:
+	node_modules/.bin/gulp pack
+
 .PHONY: deploy
 deploy:
 	node_modules/.bin/gulp preview:build
