@@ -12,46 +12,25 @@ site:
       url: '#'
       version: '1.1'
       displayVersion: '1.1'
-    - url: '#'
-      version: '1.0'
-      displayVersion: '1.0'
     latestVersion: *latest_version_tx_prevent_user_docs
   - &component
-    name: xyz
-    title: &component_title Project XYZ
-    url: /xyz/6.0/index.html
+    name: txprevent
+    title: &component_title TX Prevent
+    url: /txprevent/1.0/index.html
     versions:
-    - &latest_version_xyz
-      url: /xyz/6.0/index.html
-      version: '6.0'
-      displayVersion: '6.0'
+    - &latest_version_txprevent
+      url: /xyz/1.0/index.html
+      version: '1.0'
+      displayVersion: '1.0'
     - &component_version
-      title: *component_title
-      url: '#'
-      version: '5.2'
-      displayVersion: '5.2'
-    - url: '#'
-      version: '5.1'
-      displayVersion: '5.1'
-    - url: '#'
-      version: '5.0'
-      displayVersion: '5.0'
-    latestVersion: *latest_version_xyz
-  - name: '123'
-    title: Project 123
+  - name: txprotect
+    title:  TX Protect
     url: '#'
     versions:
-    - &latest_version_123
+    - &latest_version_txprotect
       url: '#'
-      version: '2.2'
-      displayVersion: '2.2'
-    - url: '#'
-      version: '2.1'
-      displayVersion: '2.1'
-    - url: '#'
-      version: '2.0'
-      displayVersion: '2.0'
-    latestVersion: *latest_version_123
+      version: '1.0'
+      displayVersion: '1.0'
 page:
   url: *home_url
   home: true

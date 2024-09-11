@@ -1,5 +1,5 @@
 {
-  "name": "@threatx-user-docs/ui-default",
+  "name": "threatx-user-docs/ui-default",
   "description": "A project that produces a UI for creating ThreatX's user documentation sites with Antora",
   "homepage": "https://github.com/ThreatX/threatx-user-docs-ui-defaul",
   "license": "MPL-2.0",
