@@ -1,5 +1,6 @@
 :root {
   /* colors */
+  --color-threatx-emerald: #5dd39e;
   --color-threatx-mellow-apricot: #f5ba73;
   --color-threatx-casablenca: #eea950;
   --color-threatx-tree-poppy: #e27937;
@@ -67,7 +68,7 @@
   --scrollbar-thumb-color: var(--color-gray-10);
   --scrollbar_hover-thumb-color: var(--color-gray-30);
   /* navbar */
-  --navbar-background: var(--color-txlogo-greys-1);
+  --navbar-background: var(--color-txlogo-greys-2);
   --navbar-font-color: var(--color-txlogo-reds-7);
   --navbar_hover-background: var(--color-black);
   --navbar-button-background: var(--color-white);
@@ -97,11 +98,11 @@
   --caution-on-color: var(--color-white);
   --important-color: #3f64af;
   --important-on-color: var(--color-white);
-  --note-color: #5a77b4;
+  --note-color: var(--color-threatx-emerald);
   --note-on-color: var(--color-white);
-  --tip-color: #eea950;
+  --tip-color: var(--color-threatx-casablenca);
   --tip-on-color: var(--color-white);
-  --warning-color: #c1411e;
+  --warning-color: var(--color-threatx-tree-poppy);
   --warning-on-color: var(--color-white);
   /* doc */
   --doc-font-color: var(--color-jet-50);
@@ -125,7 +126,7 @@
   --caption-font-color: var(--color-gray-70);
   --caption-font-style: italic;
   --caption-font-weight: var(--body-font-weight-bold);
-  --code-background: var(--panel-background);
+  --code-background: var(--color-threatx-athens-grey);
   --code-font-color: var(--body-font-color);
   --example-background: var(--color-white);
   --example-border-color: var(--color-gray-70);
