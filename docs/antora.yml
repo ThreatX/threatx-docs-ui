@@ -1,5 +1,0 @@
-name: threatx-user-docs-default-ui
-title: ThreatX User Docs Default UI
-version: ~
-nav:
-- modules/ROOT/nav.adoc
