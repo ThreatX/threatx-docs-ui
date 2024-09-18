@@ -12,7 +12,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     strategy:
       matrix:
         node-version: [22.8.0]
@@ -29,9 +30,18 @@ jobs:
       run: |
         npm install
         gulp bundle:pack
+        unzip build/ui-bundle.zip
 
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.3.3
       with:
-        path: build/*
+        path: build/ui-bundle
         if-no-files-found: error
+
+    - name: Create Release
+      uses: ncipollo/release-action@v1.14.0
+      with:
+          artifacts: build/*
+            
+
+  
