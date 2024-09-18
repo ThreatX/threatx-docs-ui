@@ -16,6 +16,7 @@
   --color-threatx-cod-gray: #2d3033;
   --color-threatx-glaucous: #5a77b4;
   --color-threatx-san-marino: #3f64af;
+  --color-threatx-purple: #762a8d;
   --color-txlogo-reds-1: #db5b33;
   --color-txlogo-reds-2: #db5b33;
   --color-txlogo-reds-3: #df4b26;
@@ -94,13 +95,13 @@
   --page-version-menu-background: var(--color-smoke-70);
   --page-version-missing-font-color: var(--color-gray-40);
   /* admonitions */
-  --caution-color: #d1321f;
+  --caution-color: var(--color-threatx-purple);
   --caution-on-color: var(--color-white);
-  --important-color: #3f64af;
+  --important-color: var(--color-txlogo-reds-7);
   --important-on-color: var(--color-white);
-  --note-color: var(--color-threatx-emerald);
+  --note-color: var(--color-threatx-san-marino);
   --note-on-color: var(--color-white);
-  --tip-color: var(--color-threatx-casablenca);
+  --tip-color: var(--color-threatx-emerald);
   --tip-on-color: var(--color-white);
   --warning-color: var(--color-threatx-tree-poppy);
   --warning-on-color: var(--color-white);
@@ -111,8 +112,8 @@
   --doc-line-height: 1.6;
   --doc-margin: 0 auto;
   --doc-margin--desktop: 0 2rem;
-  --heading-font-color: var(--color-jet-80);
-  --heading-font-weight: normal;
+  --heading-font-color: var(--color-txlogo-greys-2);
+  --heading-font-weight: bold;
   --alt-heading-font-weight: var(--body-font-weight-bold);
   --section-divider-color: var(--panel-border-color);
   --link-font-color: #1565c0;
@@ -123,7 +124,7 @@
   --abstract-border-color: var(--panel-border-color);
   --admonition-background: var(--panel-background);
   --admonition-label-font-weight: var(--body-font-weight-bold);
-  --caption-font-color: var(--color-gray-70);
+  --caption-font-color: var(--color-threatx-glaucous);
   --caption-font-style: italic;
   --caption-font-weight: var(--body-font-weight-bold);
   --code-background: var(--color-threatx-athens-grey);
