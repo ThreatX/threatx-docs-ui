@@ -29,19 +29,19 @@ jobs:
     - name: Build
       run: |
         npm install
-        gulp bundle:pack
-        unzip build/ui-bundle.zip
+        node_modules/.bin/gulp bundle:pack
+      
 
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.3.3
       with:
-        path: build/ui-bundle
+        path: build/
         if-no-files-found: error
 
     - name: Create Release
       uses: ncipollo/release-action@v1.14.0
       with:
-          artifacts: build/*
+          artifacts: build/
             
 
   
