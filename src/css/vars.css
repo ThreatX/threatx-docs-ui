@@ -1,5 +1,6 @@
 :root {
   /* colors */
+  --colors-threatx-coolgrey: #30333d;
   --color-threatx-emerald: #5dd39e;
   --color-threatx-mellow-apricot: #f5ba73;
   --color-threatx-casablenca: #eea950;
@@ -63,7 +64,7 @@
   --heading-font-weight-bold: 600;
   /* base */
   --body-background: var(--color-white);
-  --panel-background: var(--color-smoke-30);
+  --panel-background: var(--color-txlogo-greys-4);
   --panel-border-color: var(--color-smoke-90);
   --scrollbar-track-color: var(--color-smoke-30);
   --scrollbar-thumb-color: var(--color-gray-10);
@@ -124,7 +125,7 @@
   --abstract-border-color: var(--panel-border-color);
   --admonition-background: var(--panel-background);
   --admonition-label-font-weight: var(--body-font-weight-bold);
-  --caption-font-color: var(--color-threatx-glaucous);
+  --caption-font-color: var(--color-threatx-jelly-bean);
   --caption-font-style: italic;
   --caption-font-weight: var(--body-font-weight-bold);
   --code-background: var(--color-threatx-athens-grey);
@@ -148,10 +149,10 @@
   --toc-font-color: var(--nav-muted-color);
   --toc-heading-font-color: var(--doc-font-color);
   --toc-border-color: var(--panel-border-color);
-  --toc-line-height: 1.2;
+  --toc-line-height: 1.4;
   /* footer */
   --footer-line-height: var(--doc-line-height);
-  --footer-background: var(--color-txlogo-greys-1);
+  --footer-background: var(--colors-threatx-coolgrey);
   --footer-font-color: var(--color-gray-70);
   --footer-link-font-color: var(--color-jet-80);
   /* dimensions and positioning */
