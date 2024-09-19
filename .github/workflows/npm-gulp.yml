@@ -1,4 +1,4 @@
-name: NodeJS with Gulp
+name: Build UI Bundle
 
 on:
   workflow_dispatch:
@@ -26,22 +26,15 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Build
+    - name: Package UI Bundle
       run: |
         npm install
         node_modules/.bin/gulp bundle:pack
       
-
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.3.3
       with:
         path: build/
         if-no-files-found: error
-
-    - name: Create Release
-      uses: ncipollo/release-action@v1.14.0
-      with:
-          artifacts: build/
             
-
   
