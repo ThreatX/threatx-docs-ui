@@ -1,7 +1,7 @@
 antoraVersion: '1.0.0'
 site:
   url: http://localhost:5252
-  title: Brand Docs
+  title: ThreatX Documentation
   homeUrl: &home_url /xyz/5.2/index.html
   components:
   - name: abc
@@ -55,7 +55,7 @@ site:
 page:
   url: *home_url
   home: true
-  title: Brand&#8217;s Hardware &amp; Software Requirements
+  title: ThreatX&#8217;s Hardware &amp; Software Requirements
   component: *component
   componentVersion: *component_version
   version: '5.2'
@@ -77,7 +77,7 @@ page:
   - content: Quickstart
     url: '#'
     urlType: fragment
-  - content: Brand&#8217;s Hardware &amp; Software Requirements
+  - content: ThreatX&#8217;s Hardware &amp; Software Requirements
     url: /xyz/5.2/index.html
     urlType: internal
   versions:
@@ -101,7 +101,7 @@ page:
       url: '#'
       urlType: fragment
       items:
-      - content: Brand&#8217;s Hardware &amp; Software Requirements
+      - content: ThreatX&#8217;s Hardware &amp; Software Requirements
         url: /xyz/5.2/index.html
         urlType: internal
       - content: Cu Solet

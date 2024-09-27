@@ -1,7 +1,8 @@
-= ThreatX User Documentation
-Nick Ferguson
+= ThreatX Documentation
 :idprefix:
 :idseparator: -
+:sectlinks:
+:sectids:
 :!example-caption:
 :!table-caption:
 //:page-role: -toc
