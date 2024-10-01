@@ -1,4 +1,4 @@
-name: Build UI Bundle
+name: Pack
 
 on:
   workflow_dispatch:
@@ -8,10 +8,13 @@ on:
       - src/*
   pull_request:
     branches: [ "main" ]
+    paths:
+      - src/*
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: production
     permissions:
       contents: write
     strategy:
@@ -29,7 +32,7 @@ jobs:
     - name: Package UI Bundle
       run: |
         npm install
-        node_modules/.bin/gulp bundle:pack
+        node_modules/.bin/gulp
       
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.3.3
