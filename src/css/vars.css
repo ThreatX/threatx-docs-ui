@@ -101,9 +101,9 @@
   --important-color: var(--color-txlogo-reds-7);
   --important-on-color: var(--color-white);
   --note-color: var(--color-threatx-san-marino);
-  --note-on-color:  var(--color-white);
+  --note-on-color: var(--color-white);
   --tip-color: var(--color-threatx-emerald);
-  --tip-on-color:  var(--color-white);
+  --tip-on-color: var(--color-white);
   --warning-color: var(--color-threatx-tree-poppy);
   --warning-on-color: var(--color-white);
   /* doc */
