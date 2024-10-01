@@ -6,10 +6,7 @@ on:
     branches: [ "main" ]
     paths:
       - src/*
-  pull_request:
-    branches: [ "main" ]
-    paths:
-      - src/*
+
 
 jobs:
   build:
@@ -33,6 +30,15 @@ jobs:
       run: |
         npm install
         node_modules/.bin/gulp
+
+    - name: Release
+      uses: softprops/action-gh-release@v2
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: build/ui-bundle.zip
+        generate_release_notes: true
+        make_latest: true
+        fail_on_unmatched_files: true
       
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.3.3
