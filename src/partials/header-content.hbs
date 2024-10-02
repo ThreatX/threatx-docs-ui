@@ -13,10 +13,13 @@
     </div>
     <div id="topbar-nav" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item" href="#">📚 Home</a>
-        <a class="navbar-item" href="mailto:support@threatx.com">🛟 Support</a>
-        <div class="navbar-item has-dropdown is-hoverable">
-      </div>
+        {{#if page.attributes.pdf-filename}}
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="{{{page.attributes.pdf-filename}}}">📥 Download PDF</a>
+          </span>
+        </div>
+      {{/if}}
       </div>
     </div>
   </nav>
