@@ -12,7 +12,16 @@
       {{/if}}
     </div>
     <div id="topbar-nav" class="navbar-menu">
+  
+
       <div class="navbar-end">
+    <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="{{or site.url siteRootPath }}/txprevent/1.0/index.html">TX Prevent</a>
+            <a class="navbar-item" href="{{or site.url siteRootPath }}/txprotect/3.20/index.html">TX Protect</a>
+          </div>
+        </div>
         {{#if page.attributes.pdf-filename}}
         <div class="navbar-item">
           <span class="control">
