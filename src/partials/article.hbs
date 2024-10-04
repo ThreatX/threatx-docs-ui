@@ -2,6 +2,9 @@
 {{#with page.title}}
 <h1 class="page">{{{this}}}</h1>
 {{/with}}
+{{#if page.attributes.description}}
+<em>{{page.attributes.description}}</em>
+{{/if}}
 {{{page.contents}}}
 {{> pagination}}
 </article>

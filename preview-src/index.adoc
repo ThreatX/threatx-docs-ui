@@ -1,4 +1,8 @@
 = ThreatX Documentation
+:description: ThreatX Documentation HOme
+:page-description: {description}
+:author: Nick Ferguson
+:page-author: {author}
 :idprefix:
 :idseparator: -
 :sectlinks:
@@ -9,6 +13,8 @@
 :page-pagination:
 :pdf-filename: index.pdf
 :page-pdf-filename: index.pdf
+:build-date: 2024-01-01
+:page-build-date: {build-date}
 
 [.float-group]
 --
