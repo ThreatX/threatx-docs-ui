@@ -48,7 +48,7 @@ Eu mea inani iriure.footnote:[Quisque porta facilisis tortor, vitae bibendum vel
   "name": "module-name",
   "version": "10.0.1",
   "description": "An example module to illustrate the usage of package.json",
-  "author": "Author Name <author@example.com>",
+  "author": "Author Name <author@example.com>_",
   "scripts": {
     "test": "mocha",
     "lint": "eslint"

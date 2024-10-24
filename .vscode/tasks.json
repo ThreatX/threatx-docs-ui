@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Preview UI",
+            "type": "shell",
+            "command": "./node_modules/.bin/gulp",
+            "args": [
+              "preview",
+              "--gulpfile",
+              "${workspaceFolder}/gulpfile.js"
+            ],
+            "group": {
+              "kind": "test",
+              "isDefault": true
+            },
+            "problemMatcher": []
+          },
+          {
+            "label": "Bundle UI",
+            "type": "shell",
+            "command": "./node_modules/.bin/gulp",
+            "args": [
+              "--gulpfile",
+              "${workspaceFolder}/gulpfile.js"
+            ],
+            "group": {
+              "kind": "build",
+              "isDefault": false
+            },
+            "problemMatcher": []
+          },
+    ]
+}
