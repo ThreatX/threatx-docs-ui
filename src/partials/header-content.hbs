@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="navbar-brand">
       <img src="{{{uiRootPath}}}/img/threatx-icon-red-tx.png" />
-      <a class="navbar-item" href="{{{or site.url siteRootPath}}}">{{site.title}}</a>
+      <a class="navbar-item" href="{{{or site.url siteRootPath}}}"> {{site.title}} 📕</a>
       {{#if env.SITE_SEARCH_PROVIDER}}
       <div class="navbar-item search hide-for-print">
         <div id="search-field" class="field">
@@ -13,67 +13,17 @@
     </div>
     <div id="topbar-nav" class="navbar-menu">
       <div class="navbar-end">
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="#">Products</a>
-          <div class="navbar-dropdown">
-            <a class="navbar-item has-label" href="{{or site.url siteRootPath }}/txprevent/1.0/index.html">
-            TX Prevent
-            <small>v1.0</small>
-              </a>
-            <a class="navbar-item has-label" href="{{or site.url siteRootPath }}/txprotect/3.20/index.html">
-            TX Protect
-            <small>v3.20</small>
+        {{#if page.attributes.pdf-filename}}
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" title="Export and save the current page in PDF format."
+              href="{{{page.attributes.pdf-filename}}}">
+              📥 Download (PDF)
             </a>
-          </div>
+          </span>
         </div>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="#">
-            Resources</a>
-          <div class="navbar-dropdown">
-            <div class="navbar-item"><strong>Deployment</strong></div>
-            <a class="navbar-item has-label" href="https://hub.docker.com/u/threatx">
-              Docker Images
-              <small>threatx</small>
-            </a>
-            <a class="navbar-item has-label"
-              href="https://threatx-prevent-cf-template.s3.amazonaws.com/threatx-prevent.yaml">
-              CloudFormation Template
-              <small>txprevent</small>
-            </a>
-          </div>
-        </div>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="#">
-            Company
-          </a>
-          <div class="navbar-dropdown">
-            <a class="navbar-item" href="https://threatx.com">
-              Homepage
-            </a>
-            <a class="navbar-item " href="https://www.threatx.com/news/">
-              News
-            </a>
-            <a class="navbar-item " href="https://www.threatx.com/company/">
-              About
-            </a>
-            <a class="navbar-item " href="https://www.threatx.com/contact-us/">
-              Contact
-            </a>
-          </div>
-        </div>
+        {{/if}}
       </div>
-    </div>
-    </div>
-    {{#if page.attributes.pdf-filename}}
-    <div class="navbar-item">
-      <span class="control">
-        <a class="button is-primary" title="Export and save the current page in PDF format." href="{{{page.attributes.pdf-filename}}}">
-          📥 Download (PDF)
-        </a>
-      </span>
-    </div>
-    {{/if}}
-    </div>
     </div>
   </nav>
 </header>
