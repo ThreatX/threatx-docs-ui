@@ -3,16 +3,27 @@
     <div class="navbar-brand">
       <img src="{{{uiRootPath}}}/img/threatx-icon-red-tx.png" />
       <a class="navbar-item" href="{{{or site.url siteRootPath}}}"> {{site.title}} 📕</a>
-      {{#if env.SITE_SEARCH_PROVIDER}}
+
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+    <div class="navbar-end">
+    {{#if env.SITE_SEARCH_PROVIDER}}
       <div class="navbar-item search hide-for-print">
         <div id="search-field" class="field">
           <input id="search-input" type="text" placeholder="Search Documentation" {{#if page.home}} autofocus{{/if}}>
         </div>
       </div>
-      {{/if}}
-    </div>
-    <div id="topbar-nav" class="navbar-menu">
-      <div class="navbar-end">
+    {{/if}}
+      <a class="navbar-item" href="{{{or site.url siteRootPath}}}">Home</a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <div class="navbar-link">Products</div>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="{{{or site.url siteRootPath}}}/txprevent/current/index.html">Prevent {{#if page.attributes.txprevent-current-version}}<small>v{{{page.attributes.txprevent-current-version}}}{{/if}}</small></a>
+          <a class="navbar-item" href="{{{or site.url siteRootPath}}}/txprevent/current/index.html">Protect {{#if page.attributes.txprotect-current-version}}<small>v{{{page.attributes.txprotect-current-version}}}{{/if}}</small></a>
+          <hr class="navbar-divider"/>
+          <a class="navbar-item" href="{{{or site.url siteRootPath}}}/txgeneral/current/index.html">Dashboard</a>
+        </div>
+      </div>
         {{#if page.attributes.pdf-filename}}
         <div class="navbar-item">
           <span class="control">
