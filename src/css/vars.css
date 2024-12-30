@@ -141,10 +141,15 @@
   --quote-border-color: var(--color-gray-70);
   --quote-font-color: var(--color-gray-70);
   --quote-attribution-font-color: var(--color-gray-40);
+  --sidebar-title-color: var(--color-txlogo-reds-7);
   --sidebar-background: var(--color-smoke-70);
   --table-border-color: var(--panel-border-color);
   --table-stripe-background: var(--panel-background);
   --table-footer-background: linear-gradient(to bottom, var(--color-smoke-70) 0%, var(--color-white) 100%);
+  --table-heading-color: var(--color-txlogo-reds-7);
+  --list-title-color: var(--color-txlogo-reds-7);
+  --strong-color: var(--color-txlogo-reds-7);
+  --dlist-title-color: var(--color-txlogo-reds-7);
   /* toc */
   --toc-font-color: var(--nav-muted-color);
   --toc-heading-font-color: var(--color-txlogo-reds-7);

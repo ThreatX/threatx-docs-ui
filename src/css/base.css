@@ -50,6 +50,7 @@ dt,
 strong,
 th {
   font-weight: var(--body-font-weight-bold);
+  color: var(--strong-color);
 }
 
 sub,
