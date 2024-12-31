@@ -296,7 +296,6 @@
 .doc table.grid-rows > thead th {
   border-bottom-width: 2.5px;
   color: var(--table-heading-color);
-
 }
 
 .doc table.frame-all {
@@ -691,7 +690,6 @@
   font-weight: var(--caption-font-weight);
   margin-bottom: 0.25rem;
   color: var(--list-title-color);
-
 }
 
 .doc .imageblock .title,
@@ -771,7 +769,7 @@
 }
 
 .doc .exampleblock > .content > :first-child,
-.doc details > .content > :first-child   {
+.doc details > .content > :first-child {
   margin-top: 0;
 }
 
@@ -788,7 +786,6 @@
   margin-bottom: 0.5rem;
   text-align: center;
   color: var(--sidebar-title-color);
-
 }
 
 .doc .sidebarblock > .content > .title + *,
@@ -913,7 +910,7 @@
 
 .doc .dlist dt {
   font-style: italic;
-  color: var(--dlist-title-color)
+  color: var(--dlist-title-color);
 }
 
 .doc .dlist dd {
@@ -939,7 +936,7 @@
 .doc td.hdlist1 {
   font-weight: var(--body-font-weight-bold);
   padding-right: 0.25rem;
-  color: var(--dlist-title-color)
+  color: var(--dlist-title-color);
 }
 
 .doc td.hdlist2 {
