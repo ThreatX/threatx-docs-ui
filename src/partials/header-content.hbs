@@ -1,8 +1,11 @@
 <header class="header">
   <nav class="navbar">
     <div class="navbar-brand">
-      <img src="{{{uiRootPath}}}/img/threatx-icon-red-tx.png" />
-      <a class="navbar-item" href="{{{or site.url siteRootPath}}}"> {{site.title}} 📕</a>
+      <img src="{{{uiRootPath}}}/img/threatx-icon-red-tx.png"/>
+      <a class="navbar-item" href="{{{or site.url siteRootPath}}}">
+      <i class="fa-solid fa-book-open"></i>&nbsp;
+        {{site.title}}
+      </a>
 
     </div>
     <div id="topbar-nav" class="navbar-menu">
@@ -20,8 +23,6 @@
         <div class="navbar-dropdown">
           <a class="navbar-item" href="{{{or site.url siteRootPath}}}/txprevent/current/index.html">Prevent {{#if page.attributes.txprevent-current-version}}<small>v{{{page.attributes.txprevent-current-version}}}{{/if}}</small></a>
           <a class="navbar-item" href="{{{or site.url siteRootPath}}}/txprotect/current/index.html">Protect {{#if page.attributes.txprotect-current-version}}<small>v{{{page.attributes.txprotect-current-version}}}{{/if}}</small></a>
-          <hr class="navbar-divider"/>
-          <a class="navbar-item" href="{{{or site.url siteRootPath}}}/txgeneral/index.html">Dashboard</a>
         </div>
       </div>
         {{#if page.attributes.pdf-filename}}
@@ -29,7 +30,7 @@
           <span class="control">
             <a class="button is-primary" title="Export and save the current page in PDF format."
               href="{{{page.attributes.pdf-filename}}}">
-              📥 Download (PDF)
+              Download
             </a>
           </span>
         </div>
