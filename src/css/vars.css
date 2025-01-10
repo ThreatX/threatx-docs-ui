@@ -1,23 +1,30 @@
 :root {
   /* colors */
-  --colors-threatx-coolgrey: #30333d;
-  --color-threatx-emerald: #5dd39e;
-  --color-threatx-mellow-apricot: #f5ba73;
-  --color-threatx-casablenca: #eea950;
-  --color-threatx-tree-poppy: #e27937;
-  --color-threatx-dark-pastel-red: #c1411e;
-  --color-threatx-jelly-bean: #da5b4c;
-  --color-threatx-cedar-chest: #cc5c4f;
-  --color-threatx-vermillion: #d1321f;
-  --color-threatx-cornell-red: #b02418;
-  --color-threatx-concrete: #f2f2f2;
-  --color-threatx-black-haze: #f6f6f7;
-  --color-threatx-athens-grey: #dcdcdf;
-  --color-threatx-pumice: #c5c5c5;
-  --color-threatx-cod-gray: #2d3033;
-  --color-threatx-glaucous: #5a77b4;
-  --color-threatx-san-marino: #3f64af;
-  --color-threatx-purple: #762a8d;
+  --color-tx-reds-1: #c1411e;
+  --color-tx-reds-2: #d1321f;
+  --color-tx-reds-3: #b02418;
+  --color-tx-reds-4: #cc5c4f;
+  --color-tx-reds-5: #da5b4c;
+  --color-tx-grays-1: #2d3033;
+  --color-tx-grays-2: #dcdcdf;
+  --color-tx-grays-3: #c5c5c5;
+  --color-tx-grays-4: #f2f2f2;
+  --color-tx-grays-5: #30333d;
+  --color-tx-grays-6: #f6f6f7;
+  --color-tx-purples-1: #762a8d;
+  --color-tx-blues-1: #3f64af;
+  --color-tx-blues-2: #5a77b4;
+  --color-tx-blues-3: #437fb0;
+  --color-tx-blues-4: #4763aa;
+  --color-tx-greens-1: #73ac62;
+  --color-tx-greens-2: #7aba6d;
+  --color-tx-greens-3: #73b666;
+  --color-tx-greens-4: #5dd39e;
+  --color-tx-yellows-1: #e7a554;
+  --color-tx-yellows-2: #e4ac60;
+  --color-tx-yellows-3: #eea950;
+  --color-tx-yellows-4: #f5ba73;
+  --color-tx-yellows-5: #e27937;
   --color-txlogo-reds-1: #db5b33;
   --color-txlogo-reds-2: #db5b33;
   --color-txlogo-reds-3: #df4b26;
@@ -70,7 +77,7 @@
   --scrollbar-thumb-color: var(--color-gray-10);
   --scrollbar_hover-thumb-color: var(--color-gray-30);
   /* navbar */
-  --navbar-background: var(--colors-threatx-coolgrey);
+  --navbar-background: var(--color-tx-grays-5);
   --navbar-font-color: var(--color-white);
   --navbar_hover-background: var(--color-black);
   --navbar-button-background: var(--color-white);
@@ -85,7 +92,7 @@
   --nav-border-color: var(--color-gray-10);
   --nav-line-height: 1.35;
   --nav-heading-font-color: var(--color-txlogo-reds-7);
-  --nav-muted-color: var(--color-threatx-cod-gray);
+  --nav-muted-color: var(--color-tx-grays-1);
   --nav-panel-divider-color: var(--color-smoke-90);
   --nav-secondary-background: var(--color-smoke-70);
   /* toolbar */
@@ -96,15 +103,15 @@
   --page-version-menu-background: var(--color-smoke-70);
   --page-version-missing-font-color: var(--color-gray-40);
   /* admonitions */
-  --caution-color: var(--color-threatx-purple);
+  --caution-color: var(--color-tx-purples-1);
   --caution-on-color: var(--color-white);
   --important-color: var(--color-txlogo-reds-7);
   --important-on-color: var(--color-white);
-  --note-color: var(--color-threatx-san-marino);
+  --note-color: var(--color-tx-blues-4);
   --note-on-color: var(--color-white);
-  --tip-color: var(--color-threatx-emerald);
+  --tip-color: var(--color-tx-greens-4);
   --tip-on-color: var(--color-white);
-  --warning-color: var(--color-threatx-tree-poppy);
+  --warning-color: var(--color-tx-yellows-5);
   --warning-on-color: var(--color-white);
   /* doc */
   --doc-font-color: var(--color-jet-50);
@@ -125,7 +132,7 @@
   --abstract-border-color: var(--panel-border-color);
   --admonition-background: var(--panel-background);
   --admonition-label-font-weight: var(--body-font-weight-bold);
-  --caption-font-color: var(--color-threatx-san-marino);
+  --caption-font-color: var(--color-tx-yellows-5);
   --caption-font-style: italic;
   --caption-font-weight: var(--body-font-weight-bold);
   --code-background: var(--color-smoke-70);
@@ -138,18 +145,17 @@
   --pre-border-color: var(--panel-border-color);
   --pre-annotation-font-color: var(--color-txlogo-greys-3);
   --quote-background: var(--panel-background);
-  --quote-border-color: var(--color-txlogo-reds-7);
+  --quote-border-color: var(--color-txlogo-reds-3);
   --quote-font-color: var(--color-gray-70);
   --quote-attribution-font-color: var(--color-gray-40);
-  --sidebar-title-color: var(--color-txlogo-reds-7);
+  --sidebar-title-color: var(--color-tx-reds-4);
   --sidebar-background: var(--color-smoke-70);
   --table-border-color: var(--panel-border-color);
   --table-stripe-background: var(--panel-background);
   --table-footer-background: linear-gradient(to bottom, var(--color-smoke-70) 0%, var(--color-white) 100%);
   --table-heading-color: var(--color-jet-80);
-  --list-title-color: var(--color-txlogo-reds-7);
-  --strong-color: var(--color-threatx-san-marino);
-  --dlist-title-color: var(--color-txlogo-reds-7);
+  --list-title-color: var(--color-txlogo-reds-4);
+  --dlist-title-color: var(--color-txlogo-reds-4);
   /* toc */
   --toc-font-color: var(--nav-muted-color);
   --toc-heading-font-color: var(--color-txlogo-reds-7);
@@ -157,7 +163,7 @@
   --toc-line-height: 1.4;
   /* footer */
   --footer-line-height: var(--doc-line-height);
-  --footer-background: var(--colors-threatx-coolgrey);
+  --footer-background: var(--color-tx-grays-5);
   --footer-font-color: var(--color-gray-10);
   --footer-link-font-color: var(--color-jet-80);
   /* dimensions and positioning */

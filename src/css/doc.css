@@ -972,7 +972,7 @@
   height: 1.25em;
   letter-spacing: -0.25ex;
   text-indent: -0.25ex;
-  color: var(--color-txlogo-reds-7);
+  color: var(--color-txlogo-reds-4);
 }
 
 .doc .conum[data-value]::after {
