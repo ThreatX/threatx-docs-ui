@@ -1,5 +1,9 @@
 {{#if (and page.fileUri (not env.CI))}}
-<div class="edit-this-page"><a href="{{page.fileUri}}">Edit this Page</a></div>
+  <i class="fa-brands fa-github"></i>&nbsp;
+<div class="edit-this-page"><a href="{{page.fileUri}}" title="View/edit the source of this page">Edit</a></div>
+  &nbsp;&nbsp;
 {{else if (and page.editUrl (or env.FORCE_SHOW_EDIT_PAGE_LINK (not page.origin.private)))}}
-<div class="edit-this-page"><a href="{{page.editUrl}}">Edit this Page</a></div>
+  <i class="fa-brands fa-github"></i>&nbsp;
+<div class="edit-this-page"><a href="{{page.editUrl}}" title="View/edit the source of this page">Edit</a></div>
+  &nbsp;&nbsp;
 {{/if}}
