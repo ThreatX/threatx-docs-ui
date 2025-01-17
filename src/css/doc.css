@@ -821,7 +821,7 @@
   right: 0.5rem;
   color: var(--pre-annotation-font-color);
   font-family: var(--body-font-family);
-  font-size: calc(13 / var(--rem-base) * 1rem);
+  font-size: calc(16 / var(--rem-base) * 1rem);
   line-height: 1;
   user-select: none;
   white-space: nowrap;
